@@ -140,9 +140,6 @@ mkdir -p /opt/stoat/data/{db,minio,rabbit,caddy-data,caddy-config}
 tar -xzf $(ls -t /opt/backups/app-server/configs/configs-*.tar.gz | head -1) -C /tmp/cfg-restore/
 cp /tmp/cfg-restore/stoat/* /opt/stoat/
 
-# ⚠️ 如果有 secrets.env，从旧系统复制过来（备份中不含密钥文件）
-# scp old-server:/opt/stoat/secrets.env /opt/stoat/
-
 # 恢复 MongoDB 数据库（如果有 NAS 备份）
 cd /opt/backups/app-server/data/
 DB_FILE=$(ls -t mongodump-*.archive 2>/dev/null | head -1)
@@ -162,7 +159,7 @@ docker compose ps
 ```
 
 **⚠️ 注意**:
-- `secrets.env` 包含密钥，不在自动备份中——需手工获取
+- ✅ `secrets.env` 已纳入自动备份
 - MongoDB 数据恢复是关键，NAS 上有 dump
 - Stoat 共 15 个容器，启动需 1-2 分钟
 
@@ -274,6 +271,6 @@ systemctl enable --now llm-wiki-backup.timer app-server-backup.timer
 | NAS 地址 | 192.168.5.40 |
 | NAS 备份路径 | `Downloads/OpenClaw/backups/` |
 | GitHub 备份仓库 | `CreeperUX/CreeperUX-LLM-Wiki` |
-| 密钥文件（需手工保留） | `/opt/stoat/secrets.env` |
-| 密钥文件 2 | `/opt/stoat/livekit.yml` (含 API keys) |
+| 密钥文件（已备份） | `/opt/stoat/secrets.env` ✅ |
+| 密钥文件 2（已备份） | `/opt/stoat/livekit.yml` (含 API keys) ✅ |
 | qBittorrent webUI 源码 | `CreeperUX/Unifi-Style-QB-Web-GUI` |
