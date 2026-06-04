@@ -1,0 +1,20 @@
+rtc:
+  node_ip: stoat.creeperux.com
+  use_external_ip: true
+  port_range_start: 50000
+  port_range_end: 50100
+  tcp_port: 7881
+
+redis:
+  address: redis:6379
+
+turn:
+  enabled: false
+
+keys:
+  150510006f44: e3ed5b55d761f4b548e9c88189c2855034ede35b29e48990
+
+webhook:
+  api_key: 150510006f44
+  urls:
+  - "http://voice-ingress:8500/worldwide"

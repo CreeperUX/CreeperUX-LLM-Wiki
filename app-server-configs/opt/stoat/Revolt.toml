@@ -1,0 +1,29 @@
+# All secrets are stored in secrets.env
+# Any configuration added to this file will be overwritten by generate_config on run; however,
+# the script will back up your old configuration so you can copy over your old configuration
+# values if needed.
+[hosts]
+app = "https://stoat.creeperux.com"
+api = "https://stoat.creeperux.com/api"
+events = "wss://stoat.creeperux.com/ws"
+autumn = "https://stoat.creeperux.com/autumn"
+january = "https://stoat.creeperux.com/january"
+
+[hosts.livekit]
+worldwide = "wss://stoat.creeperux.com/livekit"
+
+[api.livekit.nodes.worldwide]
+url = "http://livekit:7880"
+lat = 0.0
+lon = 0.0
+
+[features.limits.new_user]
+video_resolution = [1920, 1080]
+video_aspect_ratio = [0.3, 10]
+
+[features.limits.default]
+video_resolution = [1920, 1080]
+video_aspect_ratio = [0.3, 10]
+
+[api.registration]
+invite_only = true

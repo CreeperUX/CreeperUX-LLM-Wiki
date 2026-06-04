@@ -1,0 +1,13 @@
+# MediaMTX - Real-Time Media Server (RTSP/WebRTC)
+# 原通过 docker run 启动，现固化为 compose
+name: mediamtx
+
+services:
+  mediamtx:
+    image: bluenviron/mediamtx
+    container_name: mediamtx
+    restart: always
+    network_mode: host
+    entrypoint: ["/mediamtx"]
+    volumes:
+      - ./mediamtx.yml:/mediamtx.yml
