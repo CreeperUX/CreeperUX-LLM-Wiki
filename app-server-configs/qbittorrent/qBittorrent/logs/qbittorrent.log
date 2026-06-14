@@ -214,3 +214,24 @@
 (I) 2026-06-02T19:18:53 - Detected external IP. IP: "80.187.123.78"
 (I) 2026-06-02T19:25:34 - Detected external IP. IP: "81.173.187.190"
 (I) 2026-06-04T00:32:28 - Detected external IP. IP: "87.79.146.67"
+                                                                                                                                                                                                                                                   (N) 2026-06-14T09:25:26 - qBittorrent v5.2.1 started. Process ID: 152
+(N) 2026-06-14T09:25:26 - Using config directory: /config/qBittorrent
+(N) 2026-06-14T09:25:26 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-06-14T09:25:26 - Peer ID: "-qB5210-"
+(I) 2026-06-14T09:25:26 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-06-14T09:25:26 - Distributed Hash Table (DHT) support: ON
+(I) 2026-06-14T09:25:26 - Local Peer Discovery support: ON
+(I) 2026-06-14T09:25:26 - Peer Exchange (PeX) support: ON
+(I) 2026-06-14T09:25:26 - Anonymous mode: OFF
+(I) 2026-06-14T09:25:26 - Encryption support: ON
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-06-14T09:25:26 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-06-14T09:25:26 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri May 1 03:53:09 2026.
+(N) 2026-06-14T09:25:26 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-06-14T09:25:26 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-06-14T09:25:26 - WebUI: Now listening on IP: *, port: 8080
+(W) 2026-06-14T09:25:31 - Couldn't download IP geolocation database file. Reason: The remote host name was not found (invalid hostname)
