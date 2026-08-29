@@ -7,7 +7,7 @@ apiAddress: :9997
 
 paths:
   x1c:
-    source: rtsps://bblp:919558ec@192.168.5.201:322/streaming/live/1
+    source: rtsps://bblp:919558ec@10.80.10.201:322/streaming/live/1
     sourceOnDemand: yes
     rtspTransport: tcp
     sourceFingerprint: "8941F64EA8E2241D99CCF31D56DF28ECA9EED6F51EBB3CF9D98F1A74853243F2"

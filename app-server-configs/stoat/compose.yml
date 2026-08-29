@@ -3,8 +3,16 @@ name: stoat
 services:
   # MongoDB: Database
   database:
-    image: docker.io/mongo
+    # MongoDB 8.2 + Linux 7.0 can crash in the TCMalloc background thread.
+    # Pin the tested immutable image and disable that thread until the upstream fix lands.
+    image: docker.io/mongo@sha256:49f1d7b87c2ddf918372be5defe7edff8c46703d0b2a56023a3f825e32e1250c
+    command: ["mongod", "--setParameter", "tcmallocEnableBackgroundThread=false"]
     restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"
     volumes:
       - ./data/db:/data/db
     healthcheck:
