@@ -1,17 +1,17 @@
 services:
   renderer:
-    image: twilight-studio-doc-designer:0.4.0
+    image: ${TWILIGHT_IMAGE:-twilight-studio-doc-designer:0.5.0}
     container_name: twilight-renderer
     hostname: twilight-renderer
     init: true
-    restart: "no"
+    restart: ${TWILIGHT_RESTART_POLICY:-unless-stopped}
     read_only: true
     ports:
-      - "10.80.10.182:18080:8080"
+      - "${TWILIGHT_BIND_ADDRESS:-10.80.10.182}:${TWILIGHT_HOST_PORT:-18080}:8080"
     tmpfs:
-      - /tmp:rw,nosuid,nodev,size=512m
-      - /home/node/.cache:rw,nosuid,nodev,size=64m
-      - /home/node/.config:rw,nosuid,nodev,size=16m
+      - /tmp:rw,nosuid,nodev,size=512m,mode=1777
+      - /home/node/.cache:rw,nosuid,nodev,size=64m,uid=1000,gid=1000
+      - /home/node/.config:rw,nosuid,nodev,size=16m,uid=1000,gid=1000
     shm_size: 1gb
     mem_limit: 2g
     cpus: 2
@@ -27,12 +27,14 @@ services:
       TWILIGHT_BASE_URL: http://127.0.0.1:8080/
       TWILIGHT_AUTH_MODE: internal
       TWILIGHT_INTERNAL_SECRET_FILE: /run/secrets/internal_token
-      TWILIGHT_AI_PROVIDER: disabled
+      TWILIGHT_AI_PROVIDER: nextcloud-proxy
+      TWILIGHT_AI_NEXTCLOUD_PROXY_URL: ${TWILIGHT_AI_NEXTCLOUD_PROXY_URL:-https://nextcloud.creeperux.com/index.php/apps/twilight_documents/api/v1/internal/ai-proxy/responses}
+      TWILIGHT_AI_PROXY_TOKEN_FILE: /run/secrets/ai_proxy_token
       TWILIGHT_AI_ALLOW_CLOUD_PII: "false"
       TWILIGHT_AI_ALLOW_CUSTOM_ENDPOINT: "false"
       TWILIGHT_DATABASE_REQUIRED: "false"
-      TWILIGHT_AI_TIMEOUT_MS: "20000"
-      TWILIGHT_AI_MAX_CONCURRENT: "2"
+      TWILIGHT_AI_TIMEOUT_MS: "120000"
+      TWILIGHT_AI_MAX_CONCURRENT: "1"
       TWILIGHT_AI_MAX_CONCURRENT_XLSX_PARSE: "1"
       TWILIGHT_AI_XLSX_PARSE_TIMEOUT_MS: "10000"
       TWILIGHT_AI_MAX_REQUESTS_PER_MINUTE: "10"
@@ -41,7 +43,8 @@ services:
       MAX_CONCURRENT_EXPORTS: "2"
       MAX_EXPORT_QUEUE: "8"
     volumes:
-      - /opt/twilight-documents/secrets/internal_token:/run/secrets/internal_token:ro
+      - ${TWILIGHT_SECRET_FILE:-/opt/twilight-documents/secrets/internal_token}:/run/secrets/internal_token:ro
+      - ${TWILIGHT_AI_PROXY_TOKEN_HOST_FILE:-/opt/twilight-documents/secrets/ai_proxy_token}:/run/secrets/ai_proxy_token:ro
     logging:
       driver: json-file
       options:
