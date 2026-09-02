@@ -429,3 +429,4 @@
 (W) 2026-08-26T21:48:07 - Couldn't load WebUI translation for selected locale (C).
 (N) 2026-08-26T21:48:07 - WebUI: Now listening on IP: *, port: 8080
 (I) 2026-08-26T21:48:07 - Detected external IP. IP: "213.196.254.193"
+(I) 2026-09-01T05:47:00 - Detected external IP. IP: "89.0.130.114"
