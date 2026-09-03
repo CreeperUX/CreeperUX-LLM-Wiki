@@ -1,6 +1,6 @@
 services:
   renderer:
-    image: ${TWILIGHT_IMAGE:-twilight-studio-doc-designer:0.5.0}
+    image: ${TWILIGHT_IMAGE:-twilight-studio-doc-designer:0.7.1}
     container_name: twilight-renderer
     hostname: twilight-renderer
     init: true
