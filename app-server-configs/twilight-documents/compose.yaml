@@ -1,6 +1,6 @@
 services:
   renderer:
-    image: ${TWILIGHT_IMAGE:-twilight-studio-doc-designer:0.7.1}
+    image: ${TWILIGHT_IMAGE:-twilight-studio-doc-designer:0.7.2}
     container_name: twilight-renderer
     hostname: twilight-renderer
     init: true
@@ -38,6 +38,8 @@ services:
       TWILIGHT_AI_MAX_CONCURRENT_XLSX_PARSE: "1"
       TWILIGHT_AI_XLSX_PARSE_TIMEOUT_MS: "10000"
       TWILIGHT_AI_MAX_REQUESTS_PER_MINUTE: "10"
+      TWILIGHT_GENERATOR_MAX_CONCURRENT_XLSX_PARSE: "1"
+      TWILIGHT_GENERATOR_XLSX_PARSE_TIMEOUT_MS: "10000"
       MAX_EXPORT_BYTES: "10485760"
       PDF_RENDER_TIMEOUT_MS: "30000"
       MAX_CONCURRENT_EXPORTS: "2"
