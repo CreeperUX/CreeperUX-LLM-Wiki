@@ -434,3 +434,51 @@
 (I) 2026-09-03T19:21:49 - Detected external IP. IP: "78.35.242.249"
 (I) 2026-09-11T06:08:51 - Detected external IP. IP: "85.197.59.209"
 (I) 2026-09-13T01:17:16 - Detected external IP. IP: "78.34.189.191"
+(N) 2026-09-17T18:27:57 - qBittorrent termination initiated
+(N) 2026-09-17T18:27:57 - Saving resume data completed.
+(N) 2026-09-17T18:27:57 - BitTorrent session successfully finished.
+(N) 2026-09-17T18:27:57 - qBittorrent is now ready to exit
+(N) 2026-09-17T18:55:37 - qBittorrent v5.2.1 started. Process ID: 151
+(N) 2026-09-17T18:55:37 - Using config directory: /config/qBittorrent
+(N) 2026-09-17T18:55:37 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-17T18:55:37 - Peer ID: "-qB5210-"
+(I) 2026-09-17T18:55:37 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-09-17T18:55:37 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-17T18:55:37 - Local Peer Discovery support: ON
+(I) 2026-09-17T18:55:37 - Peer Exchange (PeX) support: ON
+(I) 2026-09-17T18:55:37 - Anonymous mode: OFF
+(I) 2026-09-17T18:55:37 - Encryption support: ON
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-17T18:55:37 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-09-17T18:55:37 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Aug 1 03:37:09 2026.
+(N) 2026-09-17T18:55:37 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-09-17T18:55:37 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-17T18:55:37 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-17T18:55:37 - Detected external IP. IP: "78.34.189.191"
+(I) 2026-09-17T18:55:37 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(I) 2026-09-17T18:55:37 - Successfully updated IP geolocation database.
+(N) 2026-09-17T23:44:35 - qBittorrent v5.2.1 started. Process ID: 151
+(N) 2026-09-17T23:44:35 - Using config directory: /config/qBittorrent
+(N) 2026-09-17T23:44:35 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-17T23:44:35 - Peer ID: "-qB5210-"
+(I) 2026-09-17T23:44:35 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-09-17T23:44:35 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-17T23:44:35 - Local Peer Discovery support: ON
+(I) 2026-09-17T23:44:35 - Peer Exchange (PeX) support: ON
+(I) 2026-09-17T23:44:35 - Anonymous mode: OFF
+(I) 2026-09-17T23:44:35 - Encryption support: ON
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-17T23:44:35 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-09-17T23:44:35 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(N) 2026-09-17T23:44:35 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-09-17T23:44:35 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-17T23:44:35 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-17T23:44:35 - Detected external IP. IP: "78.34.189.191"
