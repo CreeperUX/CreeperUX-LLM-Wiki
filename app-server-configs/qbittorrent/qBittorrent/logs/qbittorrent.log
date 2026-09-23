@@ -558,3 +558,5 @@
 (N) 2026-09-19T22:41:47 - WebUI: Now listening on IP: *, port: 8080
 (I) 2026-09-19T22:41:47 - Detected external IP. IP: "78.34.189.191"
 (I) 2026-09-21T19:06:48 - Detected external IP. IP: "87.79.182.172"
+(I) 2026-09-22T06:32:29 - Detected external IP. IP: "80.187.121.161"
+(I) 2026-09-22T06:37:29 - Detected external IP. IP: "87.78.57.32"
