@@ -560,3 +560,28 @@
 (I) 2026-09-21T19:06:48 - Detected external IP. IP: "87.79.182.172"
 (I) 2026-09-22T06:32:29 - Detected external IP. IP: "80.187.121.161"
 (I) 2026-09-22T06:37:29 - Detected external IP. IP: "87.78.57.32"
+(N) 2026-09-23T04:32:07 - qBittorrent termination initiated
+(N) 2026-09-23T04:32:07 - Saving resume data completed.
+(N) 2026-09-23T04:32:07 - BitTorrent session successfully finished.
+(N) 2026-09-23T04:32:07 - qBittorrent is now ready to exit
+(N) 2026-09-23T04:32:37 - qBittorrent v5.2.1 started. Process ID: 151
+(N) 2026-09-23T04:32:37 - Using config directory: /config/qBittorrent
+(N) 2026-09-23T04:32:37 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-23T04:32:37 - Peer ID: "-qB5210-"
+(I) 2026-09-23T04:32:37 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-09-23T04:32:37 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-23T04:32:37 - Local Peer Discovery support: ON
+(I) 2026-09-23T04:32:37 - Peer Exchange (PeX) support: ON
+(I) 2026-09-23T04:32:37 - Anonymous mode: OFF
+(I) 2026-09-23T04:32:37 - Encryption support: ON
+(I) 2026-09-23T04:32:37 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(N) 2026-09-23T04:32:37 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-09-23T04:32:37 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-23T04:32:37 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-23T04:32:37 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-09-23T04:32:37 - Detected external IP. IP: "87.78.57.32"
