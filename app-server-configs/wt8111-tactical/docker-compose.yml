@@ -4,7 +4,7 @@ services:
   cloud-tactical-server:
     build: .
     container_name: wt8111-tactical
-    restart: unless-stopped
+    restart: "no"  # 2026-10-17 废弃：容器已停，勿自动拉起（恢复改回 unless-stopped）
     ports:
       - "17712:17712"
     environment:
