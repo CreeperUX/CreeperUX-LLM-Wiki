@@ -616,3 +616,28 @@
 (I) 2026-10-17T21:20:55 - Detected external IP. IP: "78.35.130.104"
 (I) 2026-10-17T21:20:55 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 1 03:36:12 2026.
 (I) 2026-10-17T21:20:55 - Successfully updated IP geolocation database.
+(N) 2026-10-23T18:57:36 - qBittorrent termination initiated
+(N) 2026-10-23T18:57:37 - Saving resume data completed.
+(N) 2026-10-23T18:57:37 - BitTorrent session successfully finished.
+(N) 2026-10-23T18:57:37 - qBittorrent is now ready to exit
+(N) 2026-10-23T19:01:36 - qBittorrent v5.2.1 started. Process ID: 152
+(N) 2026-10-23T19:01:36 - Using config directory: /config/qBittorrent
+(N) 2026-10-23T19:01:36 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-10-23T19:01:36 - Peer ID: "-qB5210-"
+(I) 2026-10-23T19:01:36 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-10-23T19:01:36 - Distributed Hash Table (DHT) support: ON
+(I) 2026-10-23T19:01:36 - Local Peer Discovery support: ON
+(I) 2026-10-23T19:01:36 - Peer Exchange (PeX) support: ON
+(I) 2026-10-23T19:01:36 - Anonymous mode: OFF
+(I) 2026-10-23T19:01:36 - Encryption support: ON
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-10-23T19:01:36 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-10-23T19:01:36 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 1 03:36:12 2026.
+(N) 2026-10-23T19:01:36 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-10-23T19:01:36 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-10-23T19:01:36 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-10-23T19:01:36 - Detected external IP. IP: "78.35.130.104"
