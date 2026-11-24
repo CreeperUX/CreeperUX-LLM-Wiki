@@ -696,3 +696,28 @@
 (N) 2026-11-11T01:11:29 - WebUI: Now listening on IP: *, port: 8080
 (I) 2026-11-11T01:11:29 - Detected external IP. IP: "81.173.248.214"
 (I) 2026-11-13T04:56:45 - Detected external IP. IP: "78.34.141.193"
+(N) 2026-11-23T01:23:21 - qBittorrent termination initiated
+(N) 2026-11-23T01:23:21 - Saving resume data completed.
+(N) 2026-11-23T01:23:21 - BitTorrent session successfully finished.
+(N) 2026-11-23T01:23:21 - qBittorrent is now ready to exit
+(N) 2026-11-23T01:29:00 - qBittorrent v5.2.1 started. Process ID: 151
+(N) 2026-11-23T01:29:00 - Using config directory: /config/qBittorrent
+(N) 2026-11-23T01:29:00 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-11-23T01:29:00 - Peer ID: "-qB5210-"
+(I) 2026-11-23T01:29:00 - HTTP User-Agent: "qBittorrent/5.2.1"
+(I) 2026-11-23T01:29:00 - Distributed Hash Table (DHT) support: ON
+(I) 2026-11-23T01:29:00 - Local Peer Discovery support: ON
+(I) 2026-11-23T01:29:00 - Peer Exchange (PeX) support: ON
+(I) 2026-11-23T01:29:00 - Anonymous mode: OFF
+(I) 2026-11-23T01:29:00 - Encryption support: ON
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-11-23T01:29:00 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-11-23T01:29:00 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Nov 1 03:47:39 2026.
+(N) 2026-11-23T01:29:00 - Using custom WebUI. Location: "/config/webui".
+(W) 2026-11-23T01:29:00 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-11-23T01:29:00 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-11-23T01:29:00 - Detected external IP. IP: "78.34.141.193"
